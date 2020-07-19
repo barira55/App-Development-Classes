@@ -1,0 +1,39 @@
+@font-face
+{
+    font-family: 'Ubuntu';
+    src: url('Ubuntu-Regular.ttf');
+}
+
+*{
+    font-family: Ubuntu;
+    
+}
+h1 {
+    color: red;
+    /* font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif; */
+    font-size: 100px;
+    font-weight: bold;
+    font-style: italic;
+text-decoration: underline;
+text-align: center;
+vertical-align: top;
+
+}
+
+p{
+    text-align: justify;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-transform: capitalize;
+    /* text-decoration: line-through; */
+    line-height: 1.4em;
+    letter-spacing: 0.1em;
+    word-spacing: 1em;
+    
+}
+
+.para{
+
+    text-indent: 5em;
+}

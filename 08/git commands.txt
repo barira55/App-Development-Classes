@@ -1,0 +1,13 @@
+Learning Git
+
+1. Install git using git-scm.com
+2. github.com (Making profile)
+3. Making repo in github.com
+4. git init (for making local folder into repo)
+5. git status (for checking status)
+6. git add -A (for making files trackable)
+7. git config --global user.name "Apna name"
+   git config --global user.email "Apni email"
+8. git commit -m "Jo kaam apnay kia hay"
+9. git remote add origin <link>
+10. git push -u origin master

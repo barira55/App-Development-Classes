@@ -1,0 +1,46 @@
+/* h1{
+    color:red; 
+}
+*{
+    color:red;
+    background-color: pink;
+}
+.bio{
+    color:red;
+    background-color: pink;
+}
+#name{
+    color:red;
+    background-color: pink;
+}
+li>a{
+    color:red;
+    background-color: pink;
+}
+p>b{
+    color: pink;
+}
+p  i {
+    color:red;
+    background-color: pink;
+}
+h1+p{
+    color:red;
+    background-color: pink;
+}
+h1~p{  
+    color:red;
+    background-color: pink;
+} */
+
+/* h1{
+    color: darkcyan;
+    background-color: darkgray;
+    opacity: 0.5;
+}
+h1{
+    background-color: hsl(0, 20%, 50%);
+}   */
+/* h1{
+    background-color: rgba(0, 255, 70,0.4);
+}   */

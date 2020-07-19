@@ -1,0 +1,60 @@
+1st Milestone
+Open firebase.google.com
+Signin using your gmail
+Add project
+
+2nd MileStone
+Open Nodejs.org
+Download Stable/Recommended version
+Install
+
+3rd Milestone
+Open CMD with using run as administrator
+Check for node version using (node -v)
+Check for npm version using (npm -v)
+Install firebase using (npm install --global firebase-tools)
+firebase --version
+
+4th Milestone
+firebase login
+firebase init
+Use Existing Project
+Make Public Folder
+Replace index.html with your web files
+firebase deploy
+
+CONGRATULATIONS YOU CAN GET LINK FOR YOUR ASSIGNMENT
+
+heroku --> for hosting web application website
+
+
+
+MY WORK
+for edit websites then do changes and firebase deploy in assignment folder and refresh the link.
+
+hosting of a website cost 4 to 5k
+if you want go to dodaddy.com
+
+you can get ur folders in cmd by typing cd tab
+and you get the list of folders in a particular directory
+ 
+
+WHEN YOU WANT TO CREATE NEW PROJECT
+CMD STEPS:
+
+1. firebase login
+YES
+ALLOW ACCESS(only private)
+select account
+ok
+2. firebase init
+yes
+hosting by arrow key, select by space, enter
+3. Use Existing Project
+4. Make Public Folder by enter
+yes
+5. Replace index.html with your web files
+go to assignment folder and cut files and replace to public folder
+6. firebase deploy
+
+

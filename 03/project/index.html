@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border=1px>
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Age</th> colspan merge two columns
+            <th>Gender</th>
+        </tr>
+        <tr>
+            <td>Bia</td>
+            <td>22</td>
+            <td></td>
+            <td>Female</td>
+        </tr>
+        <tr>
+            <td>Sheema</td>
+            <td>25</td>
+            <td></td>
+            <td>Female</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <th></th>
+            <th>9am</th>
+            <th>10am</th>
+            <th>11am</th>
+            <th>12am</th>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td colspan="2">Geography</td>
+            <td>Math</td>
+            <td>Art</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td colspan="3">Gym</td>
+            <td>Home Ec</td>
+        </tr>
+    </table>
+    <table border="1" bgcolor="yellow">
+        <tr bgcolor="pink">
+            <th></th>
+            <th>ABC</th>
+            <th>BBC</th>
+            <th>CNN</th>
+        </tr>
+        <tr>
+            <th>6pm - 7pm</th>
+            <td bgcolor="blue" rowspan="2">Movie</td>
+            <td>Comedy</td>
+            <td>News</td>
+        </tr>
+        <tr>
+            <th>7pm - 8pm</th>
+            <td>Sport</td>
+            <td>Current Affairs</td>
+        </tr>
+    </table>
+   
+   
+    <!-- action is attribute,link is attribute value, method get is use when form entities is limited, when form is huge use method of pose-->
+
+    <form action="http://www.example.com/subscribe.php" method="get">
+        <p>This is where the form controls will appear.
+        </p>
+    </form>
+    <!-- for female target there whose id= female -->
+
+    <form action="http://www.example.com/login.php">
+        <fieldset>
+            <legend>Personal detail</legend>
+            <p><label for="username">username:</label>
+                <!-- Username: -->
+                <input required id="username" type="text" name="username" size="15" maxlength="30"
+                    placeholder="Enter Your name" />
+            </p>
+            <p>password:
+                <input type="password" name="username" size="15" maxlength="30" />
+            </p>
+            <p>number:
+                <input type="number" name="username" size="15" maxlength="30" />
+                <input id="date" type="date" name="date" /> <br>
+                <input type="email" name="id"> <br>
+                <input type="url" name="id"> <br>
+                <input type="search" name="id"> <br>
+            </p>
+    </form>
+    <!-- cols and rows define area of text box -->
+    <form action="http://www.example.com/comments.php">
+        <p>What did you think of this gig?</p>
+        <textarea name="comments" cols="20" rows="4">Enter
+        your comments...</textarea>
+    </form>
+    <!-- if all name identities different rakheingy tw at a time 3no pr checked hoskhta hai -->
+    <form action="http://www.example.com/profile.php">
+        <p>Please select your favorite genre:
+            <br />
+            <input type="radio" name="genre" value="rock" checked="checked" /> Rock
+            <input type="radio" name="genre" value="pop" />
+            Pop
+            <input type="radio" name="genre" value="jazz" />
+            Jazz
+        </p>
+    </form>
+    <form action="">
+        <p>Please select your favorite music service(s):
+            <br />
+            <input type="checkbox" name="service" value="itunes" checked="checked" /> iTunes
+            <input type="checkbox" name="service" value="lastfm" /> Last.fm <br>
+            <input type="checkbox" name="service" value="spotify" /> Spotify
+        </p>
+
+        <p>
+            Select your country </br>
+            <select name="country">
+                <option value="Pakistan">Pakistan</option>
+                <option value="saudia">saudia</option>
+                <option selected value="uk">uk</option>
+                <option value="uae">uae</option>
+            </select>
+        </p>
+        <p>
+            upload your file <br>
+            <input type="file" name="">
+        </p>
+
+        <p>
+            submit your response <br>
+            <input type="submit" value="submit">
+            <button">submit</button> type="submit
+            <input type="image"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASIAAACuCAMAAAClZfCTAAAAYFBMVEX///8F3KIA255d5bqf7tQA2psA25/U9+tt5r78///Q9+pI4rRW5Ljo/PZ56MLb+e+F6sgm36mR7M3K9eby/fq28t6p8Ng64K7B9OI236vk+/SZ7dFm5ryO7M2B6cZz58Ls+POXAAAESUlEQVR4nO2c7XKiMBRAJZpUpBSpIGCt+/5vuckNH9otG9zZGaBzzg+HgSslZ5LLTaBuNgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADCRw227bPbneF5Dv7RZOiq6zGnoXUfLx0RzKlJzN38S6jyfoWwNnch2o1/zKXpZiaI9igKgKAiKgqAoCIqCoCgIioKgKAiKgqAoCIqCoCgIioKgKMgPUKQt5pkvKPVU+NIVGa3yKref4yGXLMv20xttqrJMnnG0bEVGHTMJTc/5aKvc8eP0Nlcu/hlHi1ZkmnSIPo5EGzk4ucmqdPH1E8vmi1aUPzzDev++Wf+syBzdVr5qRfrk44o2vvkfikzi4l9Np2jCNxasKJeoD6X1ViyV33ajJxVFKqnrxJ3pBygyb+LFBSnJscW38c8qsvcAf9P/AYrUhwvyt3OdxkWRuut1VZA/bDdUr8jubHLV1Uc+Sqm8MW6XkYNdH/R1lA25uW8q/beCYuGKzKcL2nVBSml3uUWaFi7FqjJNU8m6Lupt7568x6dXiTaJjbqo0mX7Q6VU8uIOlpEIdMeKxGyLVEZve5aVKtpK1Eekh2rYDz6nSB/aM4ii/tUEGZfm1W7FWbvr2jUxbkyXrhN1Ha7jELiO5SqKdHsry3ZJN2e4U3RqG2ceT+ociaKBvnRI1U9T5FsjxHWi/64oPpy80av5qmjAJrZBUSzq7OdptQPN3Z/v3u15cVOQUUUnl6HlFY5Md4o+o0gy/ibeRrnUWLZsaBXZcymX6+LAJSxdkb3tXE9DvE0lY4p8PSD5adMNtLPdp12i3uxtN1Gx/4t3it7tRhyuFpatSGb623Pbl1I9qugsY8VIgrkar8hV0L5wiLr47E9FEy5h0YqMcYNL6VwmVrbRY4ra0rFx27dW0aOGMUXr7kVNlWyvvglaHH2i6BEtQT7GD6EPdafIZZle0c4MUdepitwgXLkiSUGfPhHv3Pax7UXXrqjuFaW612AFPqFo5XM00bI557a6lunUpmkbmOY6kpvXcNOv3ZRN2tzf9CcNNFtqhha+F6wo6t7mLYoh3vhSud1zXzrWtd+5NxMVtU0vVjxHa1PLgMxeH97w/WYCUvcTkJCiTveaJyC2qcUQXVQ+JXcFd7a5m8b2Bab0iC+KvtZFtld6RW3b16zIlkS3lzb21qUMJf+VUexvRVqIEFkeucmDgOw6LIYUlds62q1UvlbaeDcbS9LLJfVPQPwqSXDFYdGKZHEsT5L8PqcauyfXxrRLarJE5lbNkso8Lqk9bqn7+D5ONdX446d1KPIXGdwxuvM/sApF84KiICgKgqIgKAqCoiAoCoKiICgKgqIgKAqCoiAoCoKiIHMqWstPGbzNp2jCA5oloOsZFdVr6Eb+PcvZKJVWC0dvZ/4Bo7jcLZtzFm4EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACL8BLbNXQA+DIE0AAAAASUVORK5CYII=">
+
+            <input type="hidden" value="submit">
+        </p>
+
+        </fieldset>
+
+
+    </form>
+
+</body>
+
+</html>
